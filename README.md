@@ -1,17 +1,17 @@
-# Lisk pool distribution software
-This software is created by lisk delegate "dakk", please consider a small donation if you
+# Rise pool distribution software
+This software is created by Rise delegate "dakk" for Lisk and modified for use with Rise by Aetsen, please consider a small donation if you
 use this software: "2324852447570841050L" for lisk or "7725849364280821971S" for shift.
 
 
 ## Configuration
-Fork this repo; edit liskpool.py and modify the first lines with your settings:
+Fork this repo; edit risepool.py and modify the first lines with your settings:
 
 - PUBKEY: your delegate pubkey
 - PERCENTAGE: percentage to distribute
 - SECRET: your secret
 - SECONDSECRET: your second secret or none if disabled
-- NODE: the lisk node where you get forging info
-- NODEPAY: the lisk node used for payments
+- NODE: the rise node where you get forging info
+- NODEPAY: the rise node used for payments
 - MINPAYOUT: the minimum amount for a payout
 
 Now edit docs/index.html and customize the webpage.
@@ -28,7 +28,7 @@ First install requests:
 
 Then start it:
 
-`python3 liskpool.py`
+`python3 risepool.py`
 
 It produces a file "payments.sh" with all payments shell commands. Run this file with:
 
@@ -44,9 +44,9 @@ To display the pool frontend, enable docs-site on github repository settings.
 
 The script is also runnable by cron using the -y argument:
 
-`python3 liskpool.py -y`
+`python3 risepool.py -y`
 
-There is also a 'batch.sh' file which run liskpool, then payments.sh and copy the poollogs.json
+There is also a 'batch.sh' file which run risepool, then payments.sh and copy the poollogs.json
 in the docs folder.
 
 
