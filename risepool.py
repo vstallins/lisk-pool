@@ -3,12 +3,12 @@ import json
 import sys
 import time
 
-NODE = "https://wallet.lisknode.io"
-NODEPAY = "http://localhost:8000"
-PUBKEY = "120d1c3847bd272237ee712ae83de59bbeae127263196fc0f16934bcfa82d8a4"
+NODE = "https://wallet.rise.vision"
+NODEPAY = "http://localhost:5555"
+PUBKEY = "75aab338d32f3b4855cbe5eddb53ca3709bf28fb2f2f9844fc70775423e12e05"
 LOGFILE = 'poollogs.json'
-PERCENTAGE = 15
-MINPAYOUT = 0.2
+PERCENTAGE = 50
+MINPAYOUT = 10
 SECRET = "SECRET"
 SECONDSECRET = None
 
