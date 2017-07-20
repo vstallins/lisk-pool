@@ -17,7 +17,7 @@ app.controller('indexCtrl', function($scope, $http) {
         }
     });
 
-    $http.get ('https://wallet.lisknode.io/api/delegates/get?username=dakk').then (function (res) {
+    $http.get ('https://wallet.rise.vision/api/delegates/get?username=riseup.rocks').then (function (res) {
         $scope.delegate = res.data.delegate;
     });
 });
