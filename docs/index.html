@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title>dakk Delegate Pool</title>
+        <title>Riseup.rocks Delegate Pool</title>
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     	<link href="https://bootswatch.com/flatly/bootstrap.min.css" rel="stylesheet">
         <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
@@ -9,8 +9,8 @@
     </head>
     <body ng-app="delegateApp" ng-controller="indexCtrl">
         <div class="container">
-            <h1>dakk Delegate Pool (<a href="https://explorer.lisk.io/address/2324852447570841050L" target="_blank">Explorer</a>, <a href="https://forum.lisk.io/viewtopic.php?f=48&t=1094" target="_blank">Proposal</a>)</h1>
-            <div class="alert alert-info" role="alert">Sharing weekly 15% of forged amount to voters; vote for delegate dakk to receive a reward in the next week.</div>
+            <h1>Riseup.rocks Delegate Pool (<a href="https://explorer.rise.vision/address/17912719988499752019R" target="_blank">Explorer</a>, <a href="https://forum.rise.vision/topic/23/riseup-rocks-aetsen" target="_blank">Proposal</a>)</h1>
+            <div class="alert alert-info" role="alert">Sharing weekly 50% of forged amount to voters; vote for delegate Riseup.rocks to receive a reward in the next week.</div>
 
             <div class="row">
                 <div class="col-md-4">
@@ -38,8 +38,8 @@
                 <thead>
                     <tr>
                         <th>Address</th>
-                        <th>Paid (LSK)</th>
-                        <th>Pending (LSK)</th>
+                        <th>Paid (RISE)</th>
+                        <th>Pending (RISE)</th>
                 </thead>
                 <tbody>
                     <tr ng-repeat="acc in (accounts|orderBy:'-received')">
